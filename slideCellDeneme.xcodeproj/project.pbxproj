@@ -21,6 +21,7 @@
 		052C3E6A17FD97DA00595795 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 052C3E4C17FD97DA00595795 /* UIKit.framework */; };
 		052C3E7217FD97DA00595795 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 052C3E7017FD97DA00595795 /* InfoPlist.strings */; };
 		052C3E7417FD97DA00595795 /* slideCellDenemeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 052C3E7317FD97DA00595795 /* slideCellDenemeTests.m */; };
+		052C3E7F17FD9F5800595795 /* TISwipeableTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 052C3E7E17FD9F5800595795 /* TISwipeableTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		052C3E6F17FD97DA00595795 /* slideCellDenemeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "slideCellDenemeTests-Info.plist"; sourceTree = "<group>"; };
 		052C3E7117FD97DA00595795 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		052C3E7317FD97DA00595795 /* slideCellDenemeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = slideCellDenemeTests.m; sourceTree = "<group>"; };
+		052C3E7D17FD9F5800595795 /* TISwipeableTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TISwipeableTableView.h; sourceTree = "<group>"; };
+		052C3E7E17FD9F5800595795 /* TISwipeableTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TISwipeableTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				052C3E5D17FD97DA00595795 /* ViewController.h */,
 				052C3E5E17FD97DA00595795 /* ViewController.m */,
 				052C3E6017FD97DA00595795 /* Images.xcassets */,
+				052C3E7D17FD9F5800595795 /* TISwipeableTableView.h */,
+				052C3E7E17FD9F5800595795 /* TISwipeableTableView.m */,
 				052C3E4F17FD97DA00595795 /* Supporting Files */,
 			);
 			path = slideCellDeneme;
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				052C3E5F17FD97DA00595795 /* ViewController.m in Sources */,
+				052C3E7F17FD9F5800595795 /* TISwipeableTableView.m in Sources */,
 				052C3E5917FD97DA00595795 /* AppDelegate.m in Sources */,
 				052C3E5517FD97DA00595795 /* main.m in Sources */,
 			);
