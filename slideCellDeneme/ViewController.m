@@ -61,6 +61,8 @@
 {
     [slideTV deselectRowAtIndexPath:indexPath animated:YES];
     
+    //deneme kodu eklendi
+    
     //   [self.view addSubview:buttonView];
     
     //[self tableView:tableView didSelectRowAtIndexPath:indexPath];
